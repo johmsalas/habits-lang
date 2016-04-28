@@ -1,0 +1,17 @@
+[#language: <lang>]
+
+[@context]
+Habit: <habit description, 
+  it can be multiline, must be indented from the second line>
+
+  Scenario: <Some determinable business situation>
+    [Given <some precondition>]
+      [And <some other precondition>]
+     When <some action by the actor>
+      [And <some other action>]
+      [And <yet another action>]
+     Then <some testable outcome is achieved>
+      [And <something else we can check happens too>]
+
+  [Scenario: <A different situation>]
+      ...
