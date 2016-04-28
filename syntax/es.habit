@@ -1,0 +1,18 @@
+#language: es
+
+[@contexto]
+Habito: <Descripción del habito, 
+  puede ser multilinea, debe estar 
+  indentando desde la segunda linea>
+
+  Escenario: <Alguna situación de negocio determinable>
+    [Dado <alguna precondición>]
+      [Y/E <alguna otra precondición>]
+     Cuando <alguna acción ocurre>
+      [Y/E <alguna otra acción ocurre>]
+      [Y/E <incluso otra acción ocurre>]
+     Entonces <alguna recompensa>
+      [Y/E <alguna otra recompensa>]
+
+  [Escenario: <Una situación diferente>]
+      ...

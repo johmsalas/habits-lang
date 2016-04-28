@@ -1,4 +1,4 @@
-[#language: <lang>]
+#language: en
 
 [@context]
 Habit: <habit description, 
